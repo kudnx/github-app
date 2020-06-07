@@ -10,8 +10,8 @@ const Actions = ({ getRepos, getStarred }) => (
 )
 
 Actions.propTypes = {
-  getRepos: PropTypes.func.isRequired,
-  getStarred: PropTypes.func.isRequired,
+  getRepos: React.PropTypes.func.isRequired,
+  getStarred: React.PropTypes.func.isRequired
 }
 
 export default Actions
